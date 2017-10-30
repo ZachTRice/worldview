@@ -30,7 +30,10 @@
         "no-unused-vars": "warn",
         "no-console": "warn",
         "no-undef": "warn",
-        "no-useless-escape": "warn"
+        "no-useless-escape": "warn",
+        "camelcase": "warn",
+        "no-multiple-empty-lines": "warn",
+        "strict": "warn",
       },
       "globals": {
         "wv": true,
@@ -39,6 +42,7 @@
         "buster": true,
         "jQuery": true,
         "$": true,
+        "Promise": true,
         "_": true
       }
     }

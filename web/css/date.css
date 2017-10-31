@@ -205,3 +205,14 @@ a.ui-btn-up-c {
   padding: 0;
   left: 0;
 }
+
+.dateline {
+  stroke: rgb(0, 0, 0);
+  stroke-width: 2;
+  stroke-dasharray: 10, 5;
+}
+
+.dateline-text {
+  pointer-events: none;
+  display: block;
+}
